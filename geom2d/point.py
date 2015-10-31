@@ -2,7 +2,7 @@ __author__ = 'Sergey'
 
 from math import sqrt
 
-print("name")
+print("this is a name from point.py")
 
 class Point:
     def __init__(self, _x, _y):
