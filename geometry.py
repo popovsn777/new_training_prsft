@@ -23,3 +23,8 @@ print("OK")
 
 print(L1)
 print(L2)
+
+print("OK-OK")
+L2 = sorted(L1, cmp=lambda p1, p2: cmp(p1.y, p2.y))
+print(L1)
+print(L2)
